@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" 
+	tools:context="com.example.voz_led_controle.VozActivity">
+	
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:src="@drawable/logo" />
+
+	<LinearLayout 
+        		android:id="@+id/linearLayoutLed1" 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:paddingTop="50px"
+				android:background="#FFFFFF">
+	<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="40sp"
+			android:textColor="#00BFFF"
+			android:textStyle="bold"
+			android:text="STATUS" />
+		</LinearLayout>
+		<TextView
+    		    android:layout_width="wrap_content" 
+    		    android:layout_height="wrap_content"/>
+        <TextView
+    		    android:layout_width="wrap_content" 
+    		    android:layout_height="wrap_content"/>
+	<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<TextView 
+			android:paddingRight="10px" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#00BFFF"
+    		android:textSize="30sp"
+			android:textStyle="bold"
+			android:text="LED 1:" />
+
+	<TextView
+	    android:id="@+id/tvStatusA"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingRight="41px"
+	    android:text="on..."
+	    android:textColor="#00BFFF"
+    	android:textSize="30sp"
+	    android:textStyle="bold" >
+</TextView>
+		</LinearLayout>
+		
+	<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<TextView 
+			android:paddingRight="10px" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#00BFFF"
+    		android:textSize="30sp"
+			android:textStyle="bold"
+			android:text="LED 2:" />
+
+	<TextView
+	    android:id="@+id/tvStatusB"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingRight="41px"
+	    android:text="on..."
+	    android:textColor="#00BFFF"
+    	android:textSize="30sp"
+	    android:textStyle="bold" >
+</TextView>
+		</LinearLayout>
+		
+	<LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<TextView 
+			android:paddingRight="10px" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#00BFFF"
+    		android:textSize="30sp"
+			android:textStyle="bold"
+			android:text="LED 3:" />
+
+	<TextView
+	    android:id="@+id/tvStatusC"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingRight="41px"
+	    android:text="on..."
+	    android:textColor="#00BFFF"
+    	android:textSize="30sp"
+	    android:textStyle="bold" >
+</TextView>
+		</LinearLayout>
+		<TextView
+    		    android:layout_width="wrap_content" 
+    		    android:layout_height="wrap_content"/>
+        <TextView
+    		    android:layout_width="wrap_content" 
+    		    android:layout_height="wrap_content"/>
+		
+    <LinearLayout 
+        		android:orientation="horizontal" 
+    		    android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:gravity="center_horizontal"
+				android:background="#FFFFFF">
+	<ImageButton
+        android:id="@+id/btVoz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:src="@drawable/ico_mic" />
+	
+		</LinearLayout>	
+</LinearLayout>
+
+   
